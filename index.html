@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMOM Timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>EMOM</h1>
+      <div class="timer">
+        <div class="time" id="minutes">00</div>
+        <div class="separator">:</div>
+        <div class="time" id="seconds">00</div>
+        <div class="separator">:</div>
+        <div class="time" id="milliseconds">000</div>
+      </div>
+      <div class="series">
+        <div class="time" id="rounds">0</div>
+      </div>
+      <div class="buttons">
+        <button class="btn" id="startBtn">Iniciar</button>
+        <button class="btn" id="pauseBtn" style="display: none">Pausar</button>
+        <button class="btn" id="resumeBtn" style="display: none">
+          Continuar
+        </button>
+        <button class="btn" id="resetBtn">Resetar</button>
+      </div>
+      <span id="dummy"></span>
+      <footer class="footer">Feito por Mateus R. R. Castro</footer>
+    </div>
+  </body>
+</html>
