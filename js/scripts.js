@@ -29,10 +29,13 @@ function startTimer() {
         milliseconds = 0;
        
       }
+      if (seconds === 50) {
+        playSound('sounds/countdown.mp3')
+      }
       if (seconds === 60) {
         minutes++;
         seconds = 0;
-        playSound('sounds/RoundBell.mp3')
+        playSound('sounds/BoxingBell.mp3')
       }
       if (minutes === 1) {
         rounds++;
@@ -89,5 +92,5 @@ function formatMilliseconds(time) {
 
 function processar() {
   startTimer()
-  playSound('sounds/BoxingBell.mp3')
+  playSound('sounds/AirHorn.mp3')
 }
