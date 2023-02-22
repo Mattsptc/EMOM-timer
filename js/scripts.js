@@ -32,7 +32,7 @@ function startTimer() {
       if (seconds === 50) {
         playSound('sounds/countdown.mp3')
       }
-      if (seconds === 60) {
+      if (seconds === 59) {
         minutes++;
         seconds = 0;
         playSound('sounds/BoxingBell.mp3')
