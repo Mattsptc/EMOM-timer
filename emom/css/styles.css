@@ -79,3 +79,9 @@
 }
 
 
+.voltar {
+  position: absolute;
+  left: 3vh;
+  text-decoration: none;
+  color: currentColor;
+}

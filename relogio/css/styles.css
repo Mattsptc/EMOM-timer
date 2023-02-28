@@ -1,0 +1,59 @@
+* {
+  font-family: "Orbitron", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+  padding-top: 3rem;
+  background-color: #f1f1f1;
+}
+
+.container h1 {
+  color: #121e31;
+  font-size: 2.3rem;
+
+}
+
+
+.relogio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40vh;
+  width: 80vw;
+  background: transparent;
+
+}
+
+.units {
+  height: 18vh;
+  width: 24vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background:  #121e31;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+  border-radius: 7px;
+  letter-spacing: 3px;
+  margin: 0.5vh;
+}
+
+.relogio span {
+  font-weight: bolder;
+  font-size: 2.7rem;
+}
+
+.voltar {
+  position: absolute;
+  left: 3vh;
+  text-decoration: none;
+  color: currentColor;
+}
